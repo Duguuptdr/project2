@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RatherApp</title>
+  <link rel="icon" href="./assests/image/icon-log-tiltie45.png">
+  <link rel="stylesheet" href="./assests/css/style.css" />
+  <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assests/css/responsive.css">
+  <link rel="stylesheet" href="./assests/css/sidebar.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  </style>
+</head>
+
+<body  id="flowBody"
+onload="hidefunction()">
+  <section class="loding-section">
+    <div id="loding">
+     <!-- From Uiverse.io by G4b413l --> 
+<div class="three-body">
+  <div class="three-body__dot"></div>
+  <div class="three-body__dot"></div>
+  <div class="three-body__dot"></div>
+  </div>
+    </div>
+        </section>
+
+  <header class="navbar-main">
+    <div class="logo">
+      <img src="./assests/image/logo-main.webp" alt="RatherApp Logo" class="logo-image" />
+    </div>
+    <nav class="nav-links">
+      <ul class="rd-navbar-nav">
+        <li class="rd-nav-item-active">  <a href="index.html" id="active" class="nav-bar-itam-active">Home</a></li>
+     <li class="rd-nav-item"><a href="index.html" class="nav-bar-itam">Services</a></li>
+     <li  class="rd-nav-item"><a href="index.html" class="nav-bar-itam">Projects</a></li>
+     <li class="rd-nav-item"> <a href="index.html" class="nav-bar-itam">Team</a></li>
+     <li class="rd-nav-item"> <a href="index.html" class="nav-bar-itam">News</a></li>
+     <li class="rd-nav-item"> <a href="index.html" class="nav-bar-itam">Contacts</a></li>
+      </ul>
+    </nav>
+  
+    
+    <div class="icon">
+      <a href="#"><img src="./assests/image/share-main-nav.png" alt=""></a>
+     </div>
+
+    <aside id="sidebar">
+      <div class="sidebar_content sidebar_head">
+        <div>
+          <a href="" class="navbar-brand">
+            <img src="./assests/image/logo-main.webp" alt="zabsports Logo">
+          </a>
+        </div>
+
+      </div>
+
+      <div class="sidebar_content sidebar_body">
+        <nav class="side_navlinks">
+          <ul>
+            <li>
+              <a class="sdAnchor" href="">Home </a>
+            </li>
+
+            <li>
+              <a class="sdAnchor" href="">Servises</a>
+            </li>
+            <li>
+                      <a class="sdAnchor" href="#">Projects</a>
+                  </li>
+
+            <li>
+              <a class="sdAnchor" href="">Team</a>
+            </li>
+
+            <li>
+              <a class="sdAnchor" href="">News</a>
+            </li>
+            <li>
+              <a class="sdAnchor" href="">Blog</a>
+            </li>
+            <li>
+              <a class="sdAnchor" href="">Contacts</a>
+            </li>
+
+            <li>
+              <a class="sdAnchor_contBtn stpBtn" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop2">
+                <span class="stp_btnInnr_wrapper">
+                  <span class="stp_btnInnr_text">
+                    Let’s chat
+                  </span>
+                </span>
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+
+    </aside>
+    <!--== Sidebar-Toggler ==-->
+    <div class="sidebar_toggler">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <section>
+    <div class="main-beaner">
+      <div class="text-btton">
+        <div class="img-bener">
+          <div class="text-bener">
+            <h1>Award-Winning Software</h1>
+            <a class="button button-primary button-ujarak"  href="#modalCta">Get in touch</a>
+          </div>
+           <!-- <div class="bener-button">
+                <a class="button" href="#modalCta" >Get in touch</a>
+             </div>  -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="flex-mobile-box">
+    <div class="flex-container">
+      <div class="row">
+        <div class="col-6">
+          <div class="img-mobile-box">
+            <img src="./assests/image/mobile-index-1-415x592.webp" alt="" />
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="whtOffer_bx">
+            <div class="flex-grid">
+              <div class="flex-card">
+                <h3 class="flex-box-h2">What We Offer</h2>
+                  <div class="box-icon-modern-decor"></div>
+                  <button class="flex-button">View All Services</button>
+              </div>
+              <div class="flex-card">
+                <img src="./assests/image/telephone-call.png" alt="Corporate Solutions" />
+                <h3 class="flex-box-h3">Corporate <br> Solutions</h3>
+                <div class="box-icon-modern-decor"></div>
+                <p class="flex-p-box">
+                  Need specific software for your company? We are ready to develop
+                  it!
+                </p>
+              </div>
+              <div class="flex-card">
+                <img src="./assests/image/support.png" alt="Call Center Solutions" />
+                <h3 class="flex-box-h3">Call Center <br> Solutions</h3>
+                <div class="box-icon-modern-decor"></div>
+                <p class="flex-p-box">
+                  Our experts provide custom products of any complexity for call
+                  centers.
+                </p>
+              </div>
+              <div class="flex-card">
+                <img src="./assests/image/colud-devlopement.png" alt="Cloud Development" />
+                <h3 class="flex-box-h3">Cloud <br> Development</h3>
+                <div class="box-icon-modern-decor"></div>
+                <p class="flex-p-box">
+                  We can also offer you reliable cloud development solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-imd-text-section">
+    <div class="container-imd-text">
+      <div class="img-parlex">
+        <!-- <img src="./assests/image/parallax-1.jpg" alt="">  -->
+        <div class="text-p-h2">
+          <h2 class="text-h2">Let's Develop Your Next Great App!</h2>
+          <p class="text-p">
+            Do you need a unique software solution for your company? We know
+            how to help you!
+          </p>
+        </div>
+        <div class="parallax-a-button-2">
+          <a class="parallax-a-button" href="#">Get in Touch</a>
+          <a class="parallax-a-button-a" href="#">Learn More</a>
+        </div>
+       </div>
+    </div>
+  </section>
+  <section class="desktop">
+    <div class="container-text">
+      <h2 class="font-h2">Latest Projects</h2>
+      <p class="font-p">
+        In our portfolio, you can browse the latest products developed for our
+        clients for different corporate purposes. Our qualified team of
+        interface designers and software developers is always ready to create
+        something unique for you.
+      </p>
+      <div class="all-mobile-edit">
+        <ul class="isotope-filters-list" id="isotope-3">
+          <li><a id="fixd-isotope" href="#">ALL</a></li>
+          <li><a href="#">MOBILE APPS</a></li>
+          <li><a href="#">COUSTEM SOFTWARE</a></li>
+          <li><a href="#">QA TASKING</a></li>
+          <li><a href="#">UX AND DESIGN</a></li>
+        </ul>
+      </div>
+      <div class="dropdown-center">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          FILTER
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">ALL</a></li>
+          <li><a class="dropdown-item" href="#">MOBILE APPS</a></li>
+          <li><a class="dropdown-item" href="#">COUSTEM SOFTWARE</a></li>
+          <li><a class="dropdown-item" href="#">QA TASKING</a></li>
+          <li><a class="dropdown-item" href="#">UX AND DESIGN</a></li>
+        </ul>
+      </div>
+      <div class="img-hover-container">
+        <!-- Card 1 -->
+        <article class="thumbnail thumbnail-classic thumbnail-md">
+          <div class="img-hover-box">
+            <img src="./assests/image/fullwidth-gallery-1-420x350.jpg" alt="Analytics" />
+          </div>
+          <div class="thumbnil-anyalytics">
+            <div class="thumbnil-desk">
+              <a href="./assests/image/grid-gallery-5-1200x800-original.jpg" class="icon fl-bigmug-line-zoom60"></a>
+              <h5 class=" ">
+                <a href="#"> <img src="./assests/image/search.png" width="30px" alt="">FinStep</a>
+                
+              </h5>
+              <p>
+                View detailed insights and track your data trends in real-time.
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article class="thumbnail thumbnail-classic thumbnail-md">
+          <div class="img-hover-box">
+            <img src="./assests/image/fullwidth-gallery-2-420x350.jpg" alt="Mobile Finance" />
+          </div>
+          <div class="thumbnil-anyalytics">
+            <div class="thumbnil-desk">
+            <a href="./assests/image/fullwidth-gallery-2-420x350.jpg"></a>
+            <h5 class="thumbnail-classic-title">
+              <a href="#">Mobile Finance</a>
+            </h5>
+            <p>
+              We work hard on every app to deliver top-notch features with great
+              UI.
+            </p>
+          </div></div>
+        </article>
+        <!-- Card 3 -->
+        <article class="thumbnail thumbnail-classic thumbnail-md">
+        <div class="img-hover-box">
+          <img src="./assests/image/fullwidth-gallery-3-420x350.jpg" alt="Reports" />
+          </div>
+          <div class="thumbnil-anyalytics">
+            <div class="thumbnil-desk">
+          <h5>
+            <a href="#">Performance Reports</a>
+          </h>
+          <p>
+            Get valuable insights into system performance and user behavior.
+          </p>
+        </div></div>
+</article>
+        <!-- card 4 -->
+        <article class="thumbnail thumbnail-classic thumbnail-md">
+        <div class="img-hover-box">
+          <img src="./assests/image/fullwidth-gallery-4-420x350.jpg" alt="Reports" />
+          </div>
+          <div class="thumbnil-anyalytics">
+            <div class="thumbnil-desk">
+          <h5>
+            <a href="#">Performance Reports</a>
+          </h5>
+          <p>
+            Get valuable insights into system performance and user behavior.
+          </p>
+        </div></div>
+</article>
+        <!-- card 5 -->
+        <article class="thumbnail thumbnail-classic thumbnail-md">
+        <div class="img-hover-box">
+          <img src="./assests/image/fullwidth-gallery-5-420x350.jpg" alt="Reports" />
+          </div>
+          <div class="thumbnil-anyalytics">
+            <div class="thumbnil-desk">
+          <h5>
+            <a href="#">Performance Reports</a>
+          </h5>
+          <p>
+            Get valuable insights into system performance and user behavior.
+          </p>
+        </div></div>
+</article>
+        <!-- card 6 -->
+        <article class="thumbnail thumbnail-classic thumbnail-md">
+        <div class="img-hover-box">
+          <img src="./assests/image/fullwidth-gallery-6-420x350.jpg" alt="Reports" />
+        </div>
+        <div class="thumbnil-anyalytics">
+          <div class="thumbnil-desk">
+          <h5>
+            <a href="#">
+              Performance Reports
+            </a>
+          </h5>
+          <p>
+            Get valuable insights into system performance and user behavior.
+          </p>
+        </div></div>
+</article>
+        <!-- card 7 -->
+        <article class="thumbnail thumbnail-classic thumbnail-md">
+        <div class="img-hover-box">
+          <img src="./assests/image/fullwidth-gallery-7-420x350.jpg" alt="Reports" />
+          </div>
+          <div class="thumbnil-anyalytics">
+            <div class="thumbnil-desk">
+          <h5>
+            <a href="#">Performance Reports</a>
+          </h5>
+          <p>
+            Get valuable insights into system performance and user behavior.
+          </p>
+        </div></div>
+</article>
+        <!-- card 8 -->
+        <article class="thumbnail thumbnail-classic thumbnail-md">
+        <div class="img-hover-box">
+          <img src="./assests/image/fullwidth-gallery-8-420x350.jpg" alt="Reports" />
+          </div>
+          <div class="thumbnil-anyalytics">
+            <div class="thumbnil-desk">
+          <h5>
+            <a href="#">Performance Reports</a>
+          </h5>
+          <p>
+            Get valuable insights into system performance and user behavior.
+          </p>
+        </div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+<section class="number-section">
+  <div class="number-container">
+    <div class="left-section">
+        <div class="number">10</div>
+        <div class="despcription-title">
+        <div class="title">Years Of Experience</div>
+      
+        <div class="description">
+            RatherApp is a team of highly experienced app designers and developers creating unique software for you.
+        </div>
+        <a href="#" class="cta-button">GET IN TOUCH</a>
+    </div></div>
+    <div class="right-section">
+        <div class="stat">
+            <div class="number">2k</div>
+            <div class="label">Apps Developed</div>
+        </div>
+        <div class="stat">
+            <div class="number">40</div>
+            <div class="label">Consultants</div>
+        </div><br>
+        <div class="stat">
+            <div class="number">12</div>
+            <div class="label">Awards Won</div>
+        </div>
+        <div class="stat">
+            <div class="number">160</div>
+            <div class="label">Employees</div>
+        </div>
+    </div>
+</div>
+</section>
+
+  <section class="logo-box-section">
+    <div class="logo-box-container">
+      <!-- Logo 1 -->
+       <div class="logo-box-bard">
+      <div class="logo-box-card">
+        <img src="./assests/image/20 (2).webp" alt="Logo 1" />
+      </div></div>
+
+      <!-- Logo 2 -->
+      <div class="logo-box-bard">
+      <div class="logo-box-card">
+        <img src="./assests/image/20 (3).webp" alt="Logo 2" />
+      </div></div>
+
+      <!-- Logo 3 -->
+      <div class="logo-box-bard">
+      <div class="logo-box-card">
+        <img src="./assests/image/20 (4).webp" alt="Logo 3" />
+      </div></div>
+     
+
+      <!-- Logo 4 -->
+      <div class="logo-box-bard">
+      <div class="logo-box-card">
+        <img src="./assests/image/20 (5).webp" alt="Logo 4" />
+      </div></div>
+    </div>
+  </section>
+  <section class="team-section">
+    <h1>Meet The Team</h1>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="./assests/image/team-11-420x424.jpg" alt="Ryan Wilson" />
+        <div class="team-info">
+          <h3>Ryan Wilson</h3>
+          <p>Director of Production</p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img src="./assests/image/team-12-420x424.jpg" alt="Jill Peterson" />
+        <div class="team-info">
+          <h3>Jill Peterson</h3>
+          <p>UI Designer</p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img src="./assests/image/team-13-420x424.jpg" alt="Sam Robinson" />
+        <div class="team-info">
+          <h3>Sam Robinson</h3>
+          <p>Senior Developer</p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img src="./assests/image/team-14-420x424.jpg" alt="Mary Lee" />
+        <div class="team-info">
+          <h3>Mary Lee</h3>
+          <p>Software Developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mobile-head">
+    <div class="mobile-head-container">
+      <div class="text-mobile-head-section">
+        <h1>Get More With Us</h1>
+        <div class="tabs-mobile">
+          <!-- <span class="tab-text active">01</span>
+          <span class="tab-text">02</span>
+          <span class="tab-text">03</span>
+          <span class="tab-text">04</span> -->
+        
+
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">01</button>
+
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">02</button>
+
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">03</button>
+
+            <button class="nav-link" id="nav-four-tab" data-bs-toggle="tab" data-bs-target="#nav-four" type="button" role="tab" aria-controls="nav-four" aria-selected="false">04</button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <h3>FREE APPS</h3>
+            <p class="description-mobile">
+              We regularly upload new free apps to our website, which is fully
+              accessible to our clients and subscribers. You can also find out
+              about free apps in our blog.
+            </p>
+          </div>
+
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <h3>GET SOCIAL</h3>
+            <p>Every app we develop has built-in social support that allows you to stay connected to your accounts on Facebook, Instagram, Twitter and other networks.</p>
+
+          </div>
+
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+<h3>CUSTOMER SERVICE</h3>
+<p>Every customer of RatherApp can get access to our friendly and qualified 24/7 support via chat or phone. Fell free to ask us any question!</p>
+
+          </div>
+
+          <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab" tabindex="0">
+            <h3>GREAT USABILITY</h3>
+            <p>All our apps are designed to have great usability in order to easily operate our applications. That is why our software has high ratings and lots of awards.</p>
+          </div>
+        </div>
+      </div>
+
+        
+        <div class="buttons-mobile-hed">
+          <a href="#" class="button-primary">Get in Touch</a>
+          <a href="#" class="button-secondary">Learn More</a>
+        </div>
+      </div>
+      <div class="image-mobile-head-section">
+        <img src="./assests/image/index-4-313x580.webp" alt="App Mockup" />
+        <img src="./assests/image/index-5-313x580.webp" alt="Social Apps" />
+      </div>
+    </div>
+  </section>
+  <section class="profile-section">
+    <div class="testimonials">
+      <h1>What People Say</h1>
+      <div class="testimonial-cards">
+        <div class="profil-card">
+          <img src="./assests/image/user-11-75x75.jpg" alt="Catherine Williams" />
+          <h3>Catherine Williams</h3>
+          <p class="role">Regular client</p>
+          <p>
+            RatherApp offers a high caliber of resources skilled in Microsoft
+            Azure .NET, mobile and Quality Assurance. They became our true
+            business partners over the past three years.
+          </p>
+        </div>
+        <div class="profil-card">
+          <img src="./assests/image/user-12-75x75.jpg" alt="Rupert Wood" />
+          <h3>Rupert Wood</h3>
+          <p class="role">Regular client</p>
+          <p>
+            RatherApp powered us with a competent team to develop products for
+            banking services. The team has been delivering results within
+            budget and time, which is amazing.
+          </p>
+        </div>
+        <div class="profil-card">
+          <img src="./assests/image/user-20-75x75.jpg" alt="Samantha Brown" />
+          <h3>Samantha Brown</h3>
+          <p class="role">Regular client</p>
+          <p>
+            RatherApp is a highly skilled and uniquely capable firm with
+            multitudes of talent on-board. We have collaborated on a number of
+            diverse projects that have been a great success.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pricing">
+    <h1>PRICING</h1>
+    <div class="pricing-cards">
+      <!-- Basic Plan -->
+      <div class="fees-card">
+        <h2>BASIC</h2>
+        <p class="price">$500.00</p>
+        <p>STARTING AT </p>
+        <ul>
+          <li>✔ Concept development</li>
+          <li>✔ UI design</li>
+          <li>✔ Configuration management</li>
+          <li>✔ Software quality assurance</li>
+          <li>✔ App integration</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+      <!-- Optimal Plan -->
+      <div class="fees-card popular">
+        <h2>OPTIMAL</h2>
+        <p class="price">$800.00</p>
+        <p>STARTING AT</p>
+        <ul>
+          <li>✔ Concept development</li>
+          <li>✔ UI design</li>
+          <li>✔ Configuration management</li>
+          <li>✔ Software quality assurance</li>
+          <li>✔ App integration</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+      <!-- Ultimate Plan -->
+      <div class="fees-card">
+        <h2>ULTIMATE</h2>
+        <p class="price">$1200.00</p>
+        <p>STARTING AT</p>
+        <ul>
+          <li>✔ Concept development</li>
+          <li>✔ UI design</li>
+          <li>✔ Configuration management</li>
+          <li>✔ Software quality assurance</li>
+          <li>✔ App integration</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+    </div>
+  </section>
+  <section class="blog-posts">
+    <h1>Latest Blog Posts</h1>
+    <div class="posts">
+      <!-- Blog Post 1 -->
+      <div class="post-bg">
+        <img src="./assests/image/post-10-370x307.jpg" alt="Blog Image" />
+        <div class="post-info">
+          <div class="date">
+            <span>07</span>
+            <span>/</span>
+            <span>04</span>
+          </div>
+          <div class="content">
+            <h2>Benefits Of Async/Await</h2>
+            <p>
+              Asynchronous functions are a good and bad thing in JavaScript.
+              The good side is that asynchronous functions are non-blocking
+              and...
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Blog Post 2 -->
+      <div class="post-bg">
+        <img src="./assests/image/post-11-370x307.jpg" alt="Blog Image" />
+        <div class="post-info">
+          <div class="date">
+            <span>07</span>
+            <span>/ </span>
+            <span>17</span>
+          </div>
+          <div class="content">
+            <h2>Key Considerations Of IPaaS</h2>
+            <p>
+              Digital transformation requires cloud-appropriate adoption,
+              legacy IT systems modernization, and Agile-based methodologies
+              for faster...
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Blog Post 3 -->
+      <div class="post-bg">
+        <img src="./assests/image/post-12-370x307.jpg" alt="Blog Image" />
+        <div class="post-info">
+          <div class="date">
+            <span>07</span>
+            <span>/</span>
+            <span>22</span>
+          </div>
+          <div class="content">
+            <h2>Never Stop Optimizing Your Code</h2>
+            <p>
+              In this tutorial, we will discuss the Hibernate Query Language.
+              HQL is an object-oriented query language. Hibernate Query...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-info">
+    <article class="box-contacts">
+    <div class="box-contacts-body">
+      <div class="contact-icon">
+        <img src="./assests/image/phone.png" alt="Phone Icon" />
+      </div>
+   <div class="box-contacts-decor"></div>
+      
+      <p>+1 323-913-4688</p>
+      <p>+1 323-888-4554</p>
+    </div>
+  </article>
+  <div class="col-sm-8 col-md-6 col-lg-4">
+    <article class="box-contacts">
+    <div class="box-contacts-body">
+      <div class="contact-icon">
+        <img src="./assests/image/home.png" alt="Address Icon" />
+      </div>
+   <div class="box-contacts-decor"></div>
+
+      <p>4730 Crystal Springs Dr,</p>
+      <p>Los Angeles, CA 90027</p>
+    </div>
+  </article>
+</div>
+    <article class="box-contacts">
+    <div class="box-contacts-body">
+      <div class="contact-icon">
+        <img src="./assests/image/message.png" alt="Email Icon" />
+      </div>
+   <div class="box-contacts-decor"></div>
+      
+      <p>mail@demolink.org</p>
+      <p>info@demolink.org</p>
+    </div>
+  </article>
+  </section>
+  <section class="foam-contact">
+    <div class="contact-form">
+      <h2>Get In Touch</h2>
+      <p>
+        If you have any questions, just fill in the contact form, and we will
+        answer you shortly.
+      </p>
+      <form action="#" method="post">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="E-mail" required />
+          <input type="tel" name="phone" placeholder="Phone" />
+        </div>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <section>
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509744!2d144.96305811532023!3d-37.8136279797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772cbbac8b6e62!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1614556113643!5m2!1sen!2sus"
+    width="600"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy">
+</iframe>
+  </section>
+  <section class="footer-section">
+    <footer class="footer">
+      <div class="footer-menu">
+          <a href="#">UI Design</a>
+          <span>|</span>
+          <a href="#">Windows/Mac OS Apps</a>
+          <span>|</span>
+          <a href="#">Android/iOS Apps</a>
+          <span>|</span>
+          <a href="#">Cloud Solutions</a>
+          <span>|</span>
+          <a href="#">Customer Support</a>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+          <span id="rather-2024">&copy; 2024 RatherApp</span>
+          <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-google-plus"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <span>All rights reserved. Design by TemplateMonster</span>
+      </div>
+  </footer>
+  </section>
+
+  <script src="./assests/js/jquery-3.6.3.min.js"></script>
+  <script src="./assests/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".sidebar_toggler").click(function () {
+        $("#sidebar").toggleClass("show");
+        $("#flowBody").toggleClass("overFlow_hide");
+      });
+    });
+  </script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var preloader =document.getElementById("loding");
+    function hidefunction(){
+        preloader.style.display="none";
+    }
+</script>
+</body>
+
+</html>

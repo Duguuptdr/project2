@@ -1,0 +1,297 @@
+@media (min-width: 300px) and (max-width: 479px) {
+  .col-6 {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+/* mideam phone  */
+@media (min-width: 360px) and (max-width: 479px) {
+}
+
+/* Small Tablet  */
+@media (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mideum Tablet  */
+@media (min-width: 768px) and (max-width: 991px) {
+ .number-container{
+  flex-direction: column;
+
+ }
+
+ .left-section .number{
+  font-size: 340px ;
+ }
+
+
+}
+
+/* Large Tablet  */
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+/* Small laptops  */
+@media (min-width: 1025px) and (max-width: 1199px) {
+}
+
+/* Midium laptops  */
+@media (min-width: 1200px) and (max-width: 1366px) {
+}
+
+/* Large Screens */
+@media (min-width: 1367px) and (max-width: 1600px) {
+}
+
+/* Extra Large Screens */
+@media (min-width: 1601px) and (max-width: 1920px) {
+}
+
+/* Min and Max  */
+
+@media (max-width: 599px) {
+  .img-bener {
+    min-height: 380px;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+ 
+
+  .text-p-h2 .text-h2 {
+    font-size: 24px;
+    padding: 0;
+    line-height: 25px;
+  }
+
+  .text-p-h2 .text-p {
+    font-family: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .font-h2 {
+    font-size: 32px;
+  }
+
+  .font-p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .mobile-head-container {
+    flex-direction: column-reverse;
+  }
+
+  .button-primary {
+    padding: 17px 33px 15px;
+  }
+
+  .buttons-mobile-hed {
+    flex-wrap: wrap;
+  }
+
+  .testimonials .profil-card {
+    max-width: none;
+    flex: none;
+  }
+
+ 
+
+  .contact-form .form-group {
+    flex-direction: column-reverse;
+    flex: none;
+  }
+
+  .rd-navbar-nav .rd-nav-item-active .rd-nav-item {
+    display: none;
+  }
+
+  .parallax-a-button-2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: none;
+  }
+
+  .container-imd-text-section {
+    padding: 10px;
+    box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.17);
+  }
+
+  .container-text {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .img-mobile-box {
+    padding: 0;
+  }
+
+  .img-hover-box img {
+    padding: 10px 10px 10px 10px;
+  }
+
+
+  .all-mobile-edit {
+    display: none;
+  }
+
+  
+
+  
+
+  .logo-box-container {
+    margin-top: 20px;
+    /* padding: 10px; */
+  }
+
+  .team-section {
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.17);
+    margin-top: 20px;
+  }
+
+  .testimonial-cards {
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .footer-menu span {
+    display: none;
+  }
+}
+
+@media (min-width: 599px) {
+}
+
+@media (max-width: 767px) {
+  .flex-container {
+    flex-direction: column-reverse;
+    padding: 5;
+    flex-wrap: wrap;
+  }
+
+  .flex-card {
+    flex: none;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+
+  
+  .img-mobile-box img {
+    max-width: 280px;
+    padding: 0;
+  }
+
+
+
+  .left-section .number {
+    font-size: 210px;
+    padding: 10px;
+  }
+
+  .number-section {
+    padding: 10px;
+  }
+
+  .number-container {
+    flex-direction: column;
+    /* justify-content:space-around ; */
+  }
+
+  .left-section {
+    flex-direction: column;
+  }
+
+
+  .nav-links a {
+    display: none;
+  }
+
+  .icon img {
+    display: none;
+  }
+
+  .all-mobile-edit {
+    display: none;
+  }
+
+  .testimonial-cards {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding: 20px;
+  }
+
+  .profil-card {
+    max-width: none;
+  }
+
+  .button-primary {
+    padding: 17px 33px 15px;
+  }
+
+  .buttons-mobile-hed {
+    flex-wrap: wrap;
+  }
+
+
+  .mobile-head-container{
+    flex-direction: column-reverse;
+  }
+
+  .despcription-title {
+    top: 0;
+    margin-top: 0;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .contact-info {
+    flex-direction: column-reverse;
+    /* width: none; */
+  }
+
+}
+
+@media (min-width: 767px) {
+  .dropdown-center {
+    display: none;
+  }
+
+  .sidebar_toggler span {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-links
+ {
+    margin-left: 30px;
+    padding: 0;
+  }
+
+
+  li.rd-nav-item{
+    margin-left: 15px;
+  }
+
+  .flex-box-h2{
+    line-height: none;
+  }
+
+
+}
+
+@media (min-width: 991px) {
+.navbar-main{
+  justify-content: space-between;
+}
+
+}
